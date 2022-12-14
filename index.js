@@ -16,8 +16,8 @@ function randomChar() {
 
 function generatePass() {
 
-    passOutput1El.textContent = ""
-    passOutput2El.textContent = ""
+    passOutput1El.textContent = "          "
+    passOutput2El.textContent = "          "
 
     for (let i = 0; i < passwordLength; i++) {
         passOutput1El.textContent += randomChar()

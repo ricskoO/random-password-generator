@@ -7,14 +7,17 @@
 </head>
 
 <body>
-    <h1>Generate a random password</h1>
-    <p>Never use an insecure password again.</p>
-    <button onclick="generatePass()">Generate passwords</button>
-    <div id="box-output">
-        <p id="pass1-output-el"></p>
-        <p id="pass2-output-el"></p>
+    <div id="card-body">
+        <h1 id="title1">Generate a </h1>
+        <h1 id="title2">random password</h1>
+        <p>Never use an insecure password again.</p>
+        <button id="generate-btn" onclick="generatePass()">Generate passwords</button>
+        <div id="box-output">
+            <button class="output-btn" id="pass1-output-el"> </button>
+            <button class="output-btn" id="pass2-output-el"> </button>
+        </div>
+        <script src="index.js"></script>
     </div>
-    <script src="index.js"></script>
 </body>
 
 </html>
