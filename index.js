@@ -12,7 +12,6 @@ function randomChar() {
 
     let randomChar = Math.floor(Math.random() * characters.length)
     return characters[randomChar]
-
 }
 
 function generatePass() {
